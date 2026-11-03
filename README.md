@@ -6,11 +6,24 @@
 
 ## نصب
 
-پیش‌نیاز: [Node.js](https://nodejs.org) نسخه ۱۸ به بالا + ZCode Desktop.
+پیش‌نیاز: ZCode Desktop (و Node.js نسخه ۱۸ به بالا).
 
-1. این ریپو را کلون یا دانلود کنید.
-2. در ZCode: **Plugin Marketplace → Add → Add Plugin Marketplace** و مسیر پوشه‌ای که `marketplace.json` داخلش است را بدهید (همان پوشه‌ی ریپو).
-3. از بازار افزوده‌شده، پلاگین **RTL Answers** را **Install** کنید.
+**راه سریع — یک دستور در CMD یا PowerShell:**
+
+```
+powershell -NoProfile -ExecutionPolicy Bypass -c "irm https://raw.githubusercontent.com/AmiraliFirouzi/zcode-rtl-answers/main/install.ps1 | iex"
+```
+
+اسکریپت، بازار افزونه را از همین ریپو ثبت، پلاگین را نصب و فعال می‌کند. بعد ZCode را یک بار ببند و دوباره باز کن.
+
+**یا از داخل خود ZCode:** **Plugin Marketplace → Add → Add Plugin Marketplace** و آدرس همین ریپوی گیت‌هاب را بدهید، بعد پلاگین **RTL Answers** را **Install** کنید.
+
+**یا با CLI (اگر افزونه را از قبل دارید و می‌خواهید آپدیت کنید):**
+
+```
+zcode plugins marketplace add AmiraliFirouzi/zcode-rtl-answers
+zcode plugins install rtl-answers@zcode-rtl-answers
+```
 
 ## استفاده
 
