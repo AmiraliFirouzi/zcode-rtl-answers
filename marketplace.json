@@ -1,0 +1,20 @@
+{
+  "name": "dev-rtl-answers",
+  "plugins": [
+    {
+      "name": "rtl-answers",
+      "source": "./rtl-answers",
+      "version": "0.1.2",
+      "description": "Renders Persian and other RTL-language answers as a right-to-left inline panel instead of jumbled chat text.",
+      "displayName": "RTL Answers",
+      "displayName_i18n": {
+        "fa": "خروجی راست‌چین"
+      },
+      "description_i18n": {
+        "en": "Renders Persian and other RTL-language answers as a right-to-left inline panel instead of jumbled chat text.",
+        "fa": "پاسخ‌های فارسی و سایر زبان‌های راست‌به‌چپ را به‌جای متن به‌هم‌ریخته‌ی چت، در پنلی راست‌چین و خوانا نمایش می‌دهد."
+      },
+      "category": "productivity"
+    }
+  ]
+}

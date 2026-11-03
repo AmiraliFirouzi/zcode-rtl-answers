@@ -1,0 +1,24 @@
+{
+  "name": "rtl-answers",
+  "version": "0.1.2",
+  "description": "Renders Persian and other RTL-language answers as a right-to-left inline panel instead of jumbled chat text.",
+  "description_i18n": {
+    "en": "Renders Persian and other RTL-language answers as a right-to-left inline panel instead of jumbled chat text.",
+    "fa": "پاسخ‌های فارسی و سایر زبان‌های راست‌به‌چپ را به‌جای متن به‌هم‌ریخته‌ی چت، در پنلی راست‌چین و خوانا نمایش می‌دهد."
+  },
+  "author": {
+    "name": "rtl-answers"
+  },
+  "license": "MIT",
+  "skills": "skills",
+  "mcpServers": {
+    "rtl-answers": {
+      "type": "stdio",
+      "command": "node",
+      "args": [
+        "${ZCODE_PLUGIN_ROOT}/dist/server.mjs"
+      ],
+      "cwd": "${ZCODE_PROJECT_DIR}"
+    }
+  }
+}
